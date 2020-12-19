@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background:darkblue;
+
+}
+.headerlogo{
+    width: 70%;
+    margin:auto;
+}
+.primary-menu{}
+.primary-menu ul{}
+.primary-menu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.primary-menu ul li a{
+    display: block;
+    color:white;
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 40px;
+    width: auto;
+    border-right: 1px solid #ddd;
+    text-decoration: none;
+    margin:auto;
+
+}
+.primary-menu ul li a:hover{
+    background:skyblue;
+
+}
+.banner{
+    
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-cool-shiny-digital-electrical-banner-poster-background-image_189948.jpg);
+padding: 200px 0;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+}
+.about p{
+    font-size:17px;
+}
+.about{
+    background:#ddd;
+
+}
+.service{
+    background:#ddd;
+}
+img{
+    max-width: 100%;
+}
+.product-item{
+    font-size: 18px;
+}
+.product-right ul{
+    list-style: none;
+    padding-left:0;
+}
+.product-right ul li{
+    background:rgb(95, 63, 4);
+    margin-bottom: 7px;
+    padding:7px;
+    color:wheat;
+    border-radius: 5px;
+}
+.footer{
+    background: rgb(27, 24, 24);
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer a{
+    color: #fff;
+    margin-left: 15px;
+    display:inline-block;
+}
